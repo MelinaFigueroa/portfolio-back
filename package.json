@@ -5,11 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start:dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MelinaFigueroa/Portfolio.git"
+    "url": "https://github.com/MelinaFigueroa/portfolio-back.git"
   },
   "author": "Melina Figueroa",
   "license": "ISC",
@@ -25,10 +25,10 @@
     "helmet": "^7.1.0",
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.3",
-    "nodemailer": "^6.9.7",
-    "nodemon": "^3.0.2"
+    "nodemailer": "^6.9.7"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "nodemon": "^3.0.2"
   }
 }

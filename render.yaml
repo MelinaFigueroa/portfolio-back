@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: my-app
+    env: node
+    start_command: "node server.js"
