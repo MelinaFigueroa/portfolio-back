@@ -4,9 +4,8 @@
   "description": "backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "start:dev": "nodemon server.js"
-  },
+    "start": "nodemon server.js"
+    },
   "repository": {
     "type": "git",
     "url": "https://github.com/MelinaFigueroa/portfolio-back.git"
@@ -14,9 +13,9 @@
   "author": "Melina Figueroa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MelinaFigueroa/Portfolio/issues"
+    "url": "https://github.com/MelinaFigueroa/portfolio-back/issues"
   },
-  "homepage": "https://github.com/MelinaFigueroa/Portfolio#readme",
+  "homepage": "https://github.com/MelinaFigueroa/portfolio-back#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",

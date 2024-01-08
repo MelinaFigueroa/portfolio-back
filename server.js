@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/contacto', contactoRoutes);
 
 // Puerto dinámico para la implementación en Netlify
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4001;
 
 // Iniciar el servidor
 app.listen(PORT, () => {
